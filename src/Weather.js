@@ -25,7 +25,7 @@ export default function Weather() {
 
          <div className="col-6">
            <h1>New York</h1>
-           <ul>
+           <ul className="right">
              <li>Friday: 4:00</li>
              <li>Mostly cloudy</li>
            </ul>

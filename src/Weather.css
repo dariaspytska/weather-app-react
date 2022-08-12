@@ -1,3 +1,33 @@
 .Weather {
-   border : 1px solid #9AA0A5;
+  border: 1px solid #9aa0a5;
+}
+
+.Weather input {
+  background-color: #303134;
+  border: none;
+}
+
+
+.Weather h1 {
+  text-align: right;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: Google Sans, arial, sans-serif;
+  font-weight: 400;
+}
+
+.Weather .right {
+  color: #9aa0a6;
+  text-align: right;
+}
+
+.Weather li {
+   color: #9aa0a6;
+   font-size: 12px;
+   line-height: 16px;
+   list-style-type: none;
+}
+
+.Weather .btn {
+   border : 1px solid #9aa0a5;
 }
