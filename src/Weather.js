@@ -3,19 +3,23 @@ import "./Weather.css";
 export default function Weather() {
    return (
      <div className="Weather">
-     <div className="input-group mb-3">
-  <input type="text" className="form-control" placeholder="Enter a city..." aria-label="City" aria-describedby="basic-addon2" />
-  <input type="submit" value="Search" className="btn btn-primary" />
-</div>
+       <div className="input-group mb-3">
+         <input
+           type="text"
+           className="form-control form"
+           placeholder="Enter a city..."
+           aria-label="City"
+           aria-describedby="basic-addon2"
+         />
+         <input type="submit" value="Search" className="btn btn-primary" />
+       </div>
        <div className="row">
-         <div className="col-2">
+         <div className="col-6">
            <img
              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
              alt="Mostly Cloudy"
            ></img>
-           6°C
-         </div>
-         <div className="col-4">
+           <span className="temp">6</span> <span className="unit">°C</span>
            <ul>
              <li>Precipitation: 1%</li>
              <li>Humidity: 51%</li>
@@ -31,7 +35,6 @@ export default function Weather() {
            </ul>
          </div>
        </div>
-      </div>
-   
+     </div>
    );
 }

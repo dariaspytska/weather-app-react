@@ -2,3 +2,9 @@
   background-color: #202124;
   color: white;
 }
+
+.App p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 11px;
+}
