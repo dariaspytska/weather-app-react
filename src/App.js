@@ -6,7 +6,7 @@ export default function App() {
       <div className="container">
      <Weather defaultCity="Tokyo"/>
      <p> Created by Daria Spytska and is {" "}
-     <a href="https://github.com/dariaspytska/weather-app-react" target="_blank">open-sourced on GitHub</a>
+     <a href="https://github.com/dariaspytska/weather-app-react" target="_blank" rel="noreferrer">open-sourced on GitHub</a>
      </p>
      </div>
     </div>
