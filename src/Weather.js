@@ -53,7 +53,7 @@ function search() {
           </div>
         </form>
         <WeatherInfo data={weather} />
-        <WeatherForecast cordinates={weather.coords}/>
+        <WeatherForecast coordinates={weather.coords} />
       </div>
     );
   } else {
